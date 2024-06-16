@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="./is.css">
+</head>
+<body bgcolor="pink">
+    <h1>Google search through web</h1>
+    <div id="searchBar">
+        <input id="text" placeholder="search on google">
+        <button>Search</button>
+    </div>
+    <script>
+        var btn = document.querySelector("button");
+        var iText = document.querySelector("input");
+        btn.onclick = function (ev){
+            var url = "https://www.google.com/search?q="+iText.value;
+            window.location.href = url;
+        };
+    </script>
+</body>
+</html>
