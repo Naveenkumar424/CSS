@@ -1,0 +1,29 @@
+header{
+    background-color: #030a23;
+}
+
+a{
+    color:aliceblue;
+    text-decoration: none;
+    margin-right: 200px;
+}
+
+#logo{
+    color:orange;
+}
+
+button{
+    background-color: orange;
+}
+
+#d1,#d2,#d3{
+    margin:10px;
+    border:2px solid black;
+    height: 100px;width: 100px;
+    display:block;
+}
+
+#contents{
+    height:700px;
+    width:600px;
+}
